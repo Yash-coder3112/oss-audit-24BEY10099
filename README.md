@@ -1,55 +1,59 @@
 ## Student Details
 
-- Name: Aaryan Kumar Verma  
-- Registration Number: 24BEY10055
-- Course: Open Source Software
+- Name: Yash Kudesia  
+- Registration Number: 24BEY100099  
+- Course: Open Source Software  
 
 
 ## Chosen Software
-Software: LibreOffice
-Description:
-LibreOffice is a productivity office suite developed by The Document Foundation. It provides features 
-like word processing, spreadsheets, presentation, diagrams and vector graphics, 
-database management and maths formula editor.
-It is a free and open source alternative to Microsoft Office. 
-It is completely free, no license cost, anyone can view, edit, modify and distribute the code. 
-It works on Linux, MacOs and Windows. 
+
+Software: VLC Media Player  
+
+Description:  
+VLC Media Player is a free and open-source multimedia player developed by the VideoLAN project.  
+It can play almost all types of audio and video formats without requiring additional codecs.  
+VLC supports multiple platforms such as Linux, Windows, macOS, and mobile devices.  
+
+It is widely used because of its simplicity, performance, and flexibility.  
+Being open source, users can study, modify, and distribute the software freely.  
+
 
 ## Shell Scripts
-### Script1: System Identity report 
-Filename: script1.sh
-- It displays system information like kernel, user, uptime
-- It uses variables and command substituion
 
-### Script2: FOSS Package Inspector
-Filename: script2.sh
+### Script1: System Identity Report  
+Filename: script1.sh  
+- Displays system information like kernel, user, uptime, and OS  
+- Uses basic shell commands and variables  
 
-- it checks if the software is installed or not
-- It also shows the version, license and summary
+### Script2: VLC Package Inspector  
+Filename: script2.sh  
+- Checks if VLC is installed or not  
+- Displays version, maintainer, and description  
 
-### Script3: Disk and Permission Auditor
-Filename: script3.sh
-- It checks for directories and permissions with the help of loops and awk
+### Script3: Directory and Permission Auditor  
+Filename: script3.sh  
+- Checks important Linux directories  
+- Displays permissions, ownership, and size  
 
-### Script4: Log File Analyzer
-Filename: script4.sh
-- it count for errors in log files with the help of while loop and grep
+### Script4: Log File Analyzer  
+Filename: script4.sh  
+- Searches for errors in system log files  
+- Uses grep and loops to count and display results  
 
-### Script5: Open Source Manifesto Generator
-Filename: script5.sh
-Output: manifesto_aaryanverma.txt
-- It takes user input and generates a philosophy text file
+### Script5: Open Source Manifesto Generator  
+Filename: script5.sh  
+Output: manifesto_yash_kudesia.txt  
+- Takes user input  
+- Generates a personalized open-source manifesto  
 
 
-## How to Run 
-Note: You have to firstly install the software which you want to use for the scripts.
-Then in the scripts change the author name and software you use
+## How to Run
 
 ### Step 1: Clone the repository
-git clone https://github.com/vermaak323/oss-audit-24bey10055.git
+git clone https://github.com/Yash-coder3112/oss-audit-24BEY100099.git
 
 ### Step 2: Navigate into folder
-cd oss-audit
+cd oss-audit-24BEY100099
 
 ### Step 3: Give permission
 chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
@@ -59,36 +63,34 @@ chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
 ./script1.sh  
 ./script2.sh  
 ./script3.sh  
-./script4.sh /var/log/syslog  
-./script5.sh
+./script4.sh /var/log/syslog error  
+./script5.sh  
+
 
 ## Dependencies Installed
 
-These are the dependencies required to run the shell scripts successfully:
-
 ### System Requirements
-- Linux Operating System (Ubuntu or any other)
+- Linux OS (Ubuntu / WSL Ubuntu)
 
 ### Required Commands
-The scripts use standard Linux utilities:
 
-- `uname` → to get kernel information  
-- `whoami` → to get current user  
-- `uptime` → to check system uptime  
-- `date` → to display current date and time  
-- `grep` → to search patterns in text  
-- `awk` → to process and extract data  
-- `cut` → to extract specific fields  
-- `du` → to check directory size  
-- `df` → to check disk usage  
-- `ls` → to view permissions and ownership  
-- `rpm` / `dpkg` → to check installed packages  
+- uname → kernel info  
+- whoami → current user  
+- uptime → system uptime  
+- date → current date  
+- grep → search logs  
+- awk → process data  
+- cut → extract fields  
+- du → directory size  
+- ls → permissions  
+- dpkg → package details  
+
+### Software Installation
+sudo apt update  
+sudo apt install vlc -y  
 
 ### Log Files
-- Access to system log files such as:
-  - `/var/log/syslog` (For Ubuntu)
+- /var/log/syslog (Ubuntu logs)
 
 ### Permissions
-- Execute permission for scripts:
-  ```bash
-  chmod +x scriptname.sh
+chmod +x scriptname.sh
