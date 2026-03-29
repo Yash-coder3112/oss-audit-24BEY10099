@@ -1,7 +1,7 @@
 ## Student Details
 
 - Name: Yash Kudesia  
-- Registration Number: 24BEY100099  
+- Registration Number: 24BEY10099  
 - Course: Open Source Software  
 
 
@@ -50,10 +50,10 @@ Output: manifesto_yash_kudesia.txt
 ## How to Run
 
 ### Step 1: Clone the repository
-git clone https://github.com/Yash-coder3112/oss-audit-24BEY100099.git
+git clone https://github.com/Yash-coder3112/oss-audit-24BEY10099.git
 
 ### Step 2: Navigate into folder
-cd oss-audit-24BEY100099
+cd oss-audit-24BEY10099
 
 ### Step 3: Give permission
 chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
